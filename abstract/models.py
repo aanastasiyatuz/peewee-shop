@@ -1,5 +1,5 @@
 import peewee
-from db import postgres_db
+from config.db import postgres_db
 
 class BaseModel(peewee.Model):
     class Meta:

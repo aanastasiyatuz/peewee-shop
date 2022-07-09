@@ -1,6 +1,6 @@
 from pprint import pprint
 
-from urls import urlpatterns
+from config.urls import urlpatterns
 
 while True:
     _url = input("введите адрес: ")
